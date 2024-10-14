@@ -1,0 +1,101 @@
+/* assets/css/styles.css */
+
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Flexbox para las secciones de propiedades */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.propiedad {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 30%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Ajuste de las imágenes */
+.propiedad img {
+    width: 100%;          /* Asegura que la imagen ocupe el ancho del contenedor */
+    height: 200px;        /* Altura fija para todas las imágenes */
+    object-fit: cover;    /* Mantiene las proporciones y recorta el exceso */
+    border-radius: 5px;   /* Bordes redondeados (opcional) */
+}
+
+/* Efecto de transición al hacer hover */
+.propiedad:hover {
+    transform: scale(1.05);
+}
+
+/* Botones */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+.footer {
+    background-color: burlywood;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer a:hover {
+    color: #ccc;
+}
+
+.footer .text-center {
+    margin-top: 20px;
+}

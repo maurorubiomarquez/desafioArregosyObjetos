@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inmobiliaria - Inicio</title>
+    <link rel="stylesheet" href="./assert/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="propiedades_venta.html">Propiedades en Venta</a></li>
+                <li><a href="propiedades_alquiler.html">Propiedades en Alquiler</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección de propiedades en venta -->
+        <section class="seccion-venta">
+            <h2>Propiedades en Venta</h2>
+            <div id="venta-container" class="flex-container"></div>
+            <button onclick="window.location.href='propiedades_venta.html'">Ver más propiedades en venta</button>
+        </section>
+
+        <!-- Sección de propiedades en alquiler -->
+        <section class="seccion-alquiler">
+            <h2>Propiedades en Alquiler</h2>
+            <div id="alquiler-container" class="flex-container"></div>
+            <button onclick="window.location.href='propiedades_alquiler.html'">Ver más propiedades en alquiler</button>
+        </section>
+    </main>
+
+    
+    <div>
+        <!-- Footer -->
+            <footer class="footer">
+                <div class="container">
+                    <p class="text-center">© Mauricio Rubio - Full Stack JS 2024. Todos los derechos reservados..</p>
+                </div>
+            </footer>         
+    </div>
+
+    <!-- Enlace al archivo de JavaScript -->
+    <script src="./assert/js/index.js"></script>
+</body>
+</html>
+
